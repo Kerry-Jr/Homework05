@@ -32,4 +32,4 @@ Screen of app
 ![Day planner app screenshot] (/assets/image/planner.PNG)
 
 
-By: Kerry Smith 04-01-2020
+By: Kerry Smith 04-01-2020 
