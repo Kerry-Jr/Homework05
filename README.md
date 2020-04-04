@@ -29,7 +29,7 @@ Mainly figuring out the logic for the user experience.  The time in this app is 
 8.) jQuery
 
 Screen of app
-![Day planner app screenshot] (./assets/image/planner.PNG)
+![Day planner app screenshot] (/assets/image/planner.PNG)
 
 
 By: Kerry Smith 04-01-2020
