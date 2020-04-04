@@ -1,88 +1,70 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 1;
-  background-color:  #edf3f6;
-}
-
-textarea{
-  background: transparent;
-  border: none;
-  resize: none;
-  color: #000000;
-  border-left: 1px solid black;
-  padding: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1;
+	background-color: #edf3f6;
 }
 
 .jumbotron {
-  text-align: center;
-  background-color: transparent;
-  color: rgb(10, 2, 2);
-  border-radius: 0;
-  border-bottom: 10px solid rgb(34, 39, 41);
+	text-align: center;
+	background-color: transparent;
+	color: rgb(10, 2, 2);
+	border-radius: 0;
+	border-bottom: 10px solid rgb(34, 39, 41);
 }
 
-
-.time-block{
-  text-align: center;
-  border-radius: 15px;
+.time-block {
+	text-align: center;
+	border-radius: 15px;
 }
 
 .row {
-  white-space: pre-wrap;
-  height: 80px;
-  border-top: 1px solid white;;
+	white-space: pre-wrap;
+	height: 80px;
+	border-top: 1px solid white;
 }
-
 
 label {
-  font-size: 25px;
-  font-weight: bolder;
+	font-size: 25px;
+	font-weight: bolder;
 }
-
-
-
 
 .saveBtn {
-  border-left: 1px solid black;
-  border-top-left-radius: 55px;
-  border-bottom-left-radius: 55px;
-  background-color: rgb(6, 20, 24);
-  color: whitesmoke;
+	border-left: 1px solid black;
+	border-top-left-radius: 55px;
+	border-bottom-left-radius: 55px;
+	background-color: rgb(6, 20, 24);
+	color: whitesmoke;
 }
 
-
-
 .todo {
-  width: 75%;
-  height: 80%;
-  color: whitesmoke;
-  border-radius: 5px;
+	width: 75%;
+	height: 80%;
+	color: whitesmoke;
+	border-radius: 5px;
 }
 
 #foot {
-  height: 50px;
-  width: 100%;
+	height: 50px;
+	width: 100%;
 }
 
 .clearBtn {
-  border-left: 1px solid black;
-  border-top-right-radius: 55px;
-  border-bottom-right-radius: 55px;
-  background-color: red;
-  color: whitesmoke;
+	border-left: 1px solid black;
+	border-top-right-radius: 55px;
+	border-bottom-right-radius: 55px;
+	background-color: red;
+	color: whitesmoke;
 }
 
-::placeholder { 
-  color:whitesmoke;
- }
+::placeholder {
+	color: whitesmoke;
+}
 
- .bg-success{
-   background-color: red !important;
- }
-
+.bg-success {
+	background-color: red !important;
+}
 
 .timeData {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
 }
-
