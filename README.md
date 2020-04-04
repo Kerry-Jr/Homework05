@@ -21,13 +21,12 @@ Mainly figuring out the logic for the user experience.  The time in this app is 
 
 1.) Declared multiple variables 
 2.) For loops, if statements, and DOM manipulation.
-3.) Achieved having a function take input from user and then generate score for users uniquely.
-4.) HTML
-5.) CSS
-6.) JAVASCRIPT
-7.) Local storage
-8.) Moment.js
-9.) jQuery
+3.) HTML
+4.) CSS
+5.) JAVASCRIPT
+6.) Local storage
+7.) Moment.js
+8.) jQuery
 
 Screen of app
 ![Day planner app screenshot](./assets/image/planner.png)
