@@ -59,15 +59,16 @@ textarea{
 
 .saveBtn {
   border-left: 1px solid black;
-  border-top-right-radius: 55px;
-  border-bottom-right-radius: 55px;
+  border-top-left-radius: 55px;
+  border-bottom-left-radius: 55px;
   background-color: #06AED5;
-  color: white;
+  color: whitesmoke;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
+  
 }
 
 .todo {
@@ -79,5 +80,29 @@ textarea{
 #foot {
   height: 20px;
   width: 100%;
+}
+
+.clearBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 55px;
+  border-bottom-right-radius: 55px;
+  background-color: red;
+  color: whitesmoke;
+}
+
+::placeholder { 
+  color:whitesmoke;
+ }
+
+ .bg-success{
+   background-color: red !important;
+ }
+
+ .todo{
+   border-radius: 5px;
+}
+
+.timeData {
+  margin-bottom: 20px;
 }
 

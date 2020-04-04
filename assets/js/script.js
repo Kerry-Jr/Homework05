@@ -18,16 +18,16 @@ $(document).ready(function () {
     function timeColor() {
         let currentTime = moment().format('H');
         let $timeData = document.querySelectorAll('.timeData');
-        console.log($timeData);
+        // console.log($timeData);
         for (let i = 0; i < $timeData.length; i++) {
             let value = $($timeData[i]).data('time');
             let target = $($timeData[i]).children('.inputDiv').children('input');
-            if (currentTime === value) {
-                $(target).addClass('bg-primary');
+            if (currentTime == value) {
+                $(target).addClass('bg-warning');
             } else if (currentTime < value) {
-                $(target).addClass('bg-danger');
+                $(target).addClass('future');
             } else if (currentTime > value) {
-                $(target).addClass('bg-success text-white');
+                $(target).addClass('bg-primary text-white');
             } else {
                 break;
             }
@@ -40,26 +40,26 @@ $(document).ready(function () {
 
 
 
-    $("#main").append("<div>")
+    // $("#main").append("<div>")
 
 
 
 
-    $(".col").append("<input>This is an input tag</input>");
+    // $(".col").append("<input>This is an input tag</input>");
 
 
-    let $todoValue = $('#todo').val();
-
-
-
+    // let $todoValue = $('#todo').val();
 
 
 
-    console.log($todoValue);
 
 
-    let $inputDiv = $('.inputDiv');
-    console.log($inputDiv);
+
+    // console.log($todoValue);
+
+
+    // let $inputDiv = $('.inputDiv');
+    // console.log($inputDiv);
 
 
 
@@ -75,7 +75,7 @@ $(document).ready(function () {
     let $input4 = $('#input-4').val();
     let $input5 = $('#input-5').val();
 
-    console.log($input10);
+    // console.log($input10);
 
 
     //   for(let i = 0; i < 7; i++) {
@@ -89,7 +89,33 @@ $(document).ready(function () {
     })
 
 
-    //   $('#events').append('<input>'); 
+
+$('.clearBtn').on('click', function (){
+    $(this).parent().prev().children('input').val("");
+    deleteItems();
+
+})
+
+// $(".clearBtn").click(function() {
+//     $(this).closest('input').find("input[type=text], textarea").val("");
+
+
+  function deleteItems(){
+      localStorage.clear();
+  }
+
+
+
+
+function clearVal(){
+
+}
+
+
+
+
+
+
 
 
 });
